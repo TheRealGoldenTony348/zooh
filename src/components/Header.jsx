@@ -1,14 +1,18 @@
 import "./Header.css";
+import { Outlet, Link } from "react-router-dom";
 
 function Header() {
     return(
         <header>
             <h1>Zooh!</h1>
-            <div>
-                <a href="/">Map</a>
-                <a href="/">Page 1</a>
-                <a href="/">Page 2</a>
-            </div>
+            <nav>
+
+                    <Link to="/">Home</Link>
+
+
+                    <Link to="/pageone">Page 1</Link>
+
+            </nav>
         </header>
     );
 }
