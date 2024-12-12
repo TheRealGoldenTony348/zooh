@@ -3,11 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
-import Home from "./pages/home";
+import Home from './pages/home';
 import PageOne from "./pages/page1";
 import Layout from './pages/Layout';
-import Header from './components/Header';
 
 export default function App() {
 

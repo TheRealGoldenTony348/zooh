@@ -1,7 +1,25 @@
 header {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
     flex-direction: row;
     background-color: aliceblue;
+}
+
+.pageLink {
+    color: black;
+    font-weight: bold;
+    background-color: grey;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 5px;
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.pageLink:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: lightgrey;
 }
