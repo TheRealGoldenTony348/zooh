@@ -23,3 +23,21 @@ header {
     transition: 0.3s;
     background-color: lightgrey;
 }
+
+header {
+    padding: 2px 10px;
+}
+
+.menuButton {
+    padding: 5px 9px;
+    border-radius: 8px;
+    border: none;
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+.menuButton:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+    transition: 0.7s;
+}
