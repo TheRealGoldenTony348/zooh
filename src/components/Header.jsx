@@ -8,6 +8,7 @@ function Header() {
             <nav>
                 <Link className="pageLink" to="/">Home</Link>
                 <Link className="pageLink" to="/pageone">Page 1</Link>
+                <Link className="pageLink" to="/pagetwo">Page 2</Link>
             </nav>
             <button className="menuButton">=</button>
         </header>

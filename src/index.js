@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import PageOne from "./pages/page1";
 import Layout from './pages/Layout';
+import PageTwo from './pages/page2';
 
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
         <Route path='/' element={<Layout />}>
           <Route index element={<Home/>} />
           <Route path={"pageone"} element={<PageOne/>} />
+          <Route path={"pagetwo"} element={<PageTwo/>} />
         </Route>
       </Routes>
     </BrowserRouter>
