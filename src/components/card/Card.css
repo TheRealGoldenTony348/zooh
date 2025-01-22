@@ -8,4 +8,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+
+.baseBox:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: brown;
 }
