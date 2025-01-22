@@ -1,7 +1,14 @@
+import Card from "../components/card/Card";
+import "./home.css";
 
 function Home() {
     return(
-        <div>home</div>
+        <div className="base">
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+        </div>
     );
 }
 

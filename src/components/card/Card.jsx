@@ -1,8 +1,8 @@
-
+import "./Card.css";
 
 function Card() {
     return(
-        <div className="base">
+        <div className="baseBox">
             <h3>Title</h3>
         </div>
     );
