@@ -1,9 +1,10 @@
 import "./Card.css";
 
-function Card() {
+function Card(props) {
+    let title = props.title;
     return(
         <div className="baseBox">
-            <h3>Title</h3>
+            <h3>{title}</h3>
         </div>
     );
 }
