@@ -7,6 +7,7 @@ import Home from './pages/home';
 import PageOne from "./pages/page1";
 import Layout from './pages/Layout';
 import PageTwo from './pages/page2';
+import Map from './pages/map';
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
           <Route index element={<Home/>} />
           <Route path={"pageone"} element={<PageOne/>} />
           <Route path={"pagetwo"} element={<PageTwo/>} />
+          <Route path={"map"} element={<Map/>} />
         </Route>
       </Routes>
     </BrowserRouter>
