@@ -4,7 +4,7 @@ function Ticket() {
     return (
         <>
             <div>
-                <h1>Ticket</h1>
+                <h2>Ticket</h2>
             </div>
         </>
     );
