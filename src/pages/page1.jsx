@@ -1,7 +1,10 @@
+import Ticket from "../components/ticket/Ticket";
 
 function PageOne() {
     return(
-        <div>page one</div>
+        <div>
+            <Ticket></Ticket>
+        </div>
     )
 }
 
