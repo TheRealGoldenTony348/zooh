@@ -24,10 +24,10 @@ function Header() {
                 isOpen={menuOpen}
                 onStateChange={(state) => handleStateChange(state)}
             >
-                <a className="menu-item" href="#home" onClick={() => closeMenu()}>Home</a>
-                <a className="menu-item" href="#about" onClick={() => closeMenu()}>About</a>
-                <a className="menu-item" href="#services" onClick={() => closeMenu()}>Services</a>
-                <a className="menu-item" href="#contact" onClick={() => closeMenu()}>Contact</a>
+                <a className="menu-item" href="/" onClick={() => closeMenu()}>Home</a>
+                <a className="menu-item" href="/" onClick={() => closeMenu()}>About</a>
+                <a className="menu-item" href="/" onClick={() => closeMenu()}>Services</a>
+                <a className="menu-item" href="/" onClick={() => closeMenu()}>Contact</a>
             </Menu>
             <header className="App-header">
                 <h1 className='title'>Zooh!</h1>
