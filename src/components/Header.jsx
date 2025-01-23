@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Header.css";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { slide as Menu } from 'react-burger-menu';
 
 function Header() {
