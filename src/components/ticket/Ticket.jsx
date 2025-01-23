@@ -1,10 +1,21 @@
 import "./Ticket.css"
 
-function Ticket() {
+function Ticket(props) {
+    let title = props.title;
+    let price = props.price;
+    let description = props.description;
+
     return (
         <>
-            <div>
-                <h2>Ticket</h2>
+            <div className="baseTicket">
+                <div>
+                    <h2>{title}</h2>
+                    <p>{description}</p>
+                </div>
+                
+                <h3>
+                    {price}
+                </h3>
             </div>
         </>
     );

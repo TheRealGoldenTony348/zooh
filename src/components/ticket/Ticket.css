@@ -1,0 +1,9 @@
+.baseTicket {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    background-color: burlywood;
+    padding: 0px 15px;
+    width: 50%;
+    border-radius: 8px;
+}
