@@ -18,7 +18,7 @@ function Header() {
         setMenuOpen(!menuOpen);
     }
     return (
-        <header>
+        <>
             <Menu
                 right
                 isOpen={menuOpen}
@@ -30,17 +30,15 @@ function Header() {
                 <a className="menu-item" href="#contact" onClick={() => closeMenu()}>Contact</a>
             </Menu>
             <header className="App-header">
-                <div className="title">My Website</div>
+                <h1 className='title'>Zooh!</h1>
+                <nav>
+                    <Link className="pageLink" to="/">Home</Link>
+                    <Link className="pageLink" to="/pageone">Page 1</Link>
+                    <Link className="pageLink" to="/pagetwo">Page 2</Link>
+                </nav>
                 <div className="hamburger-menu" onClick={toggleMenu}></div>
             </header>
-            <h1>Zooh!</h1>
-            <nav>
-                <Link className="pageLink" to="/">Home</Link>
-                <Link className="pageLink" to="/pageone">Page 1</Link>
-                <Link className="pageLink" to="/pagetwo">Page 2</Link>
-            </nav>
-            <button className="menuButton">=</button>
-        </header>
+        </>
     );
 }
 
