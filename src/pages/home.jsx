@@ -5,9 +5,9 @@ function Home() {
     return(
         <div className="base">
             <Card title={"Map"} link={"/map"} />
-            <Card title={"Ticket Kaufen"} link={"/pageone"} />
-            <Card title={"Spezielle angebote"} link={"/pageone"} />
-            <Card title={"Fakte über Tiere!"} link={"/pagetwo"} />
+            <Card title={"Buy Tickets"} link={"/pageone"} />
+            <Card title={"Special Offers"} link={"/pageone"} />
+            <Card title={"Fun Facts about Animals!"} link={"/pagetwo"} />
         </div>
     );
 }

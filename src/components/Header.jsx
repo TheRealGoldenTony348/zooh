@@ -33,8 +33,9 @@ function Header() {
                 <h1 className='title'>Zooh!</h1>
                 <nav>
                     <Link className="pageLink" to="/">Home</Link>
-                    <Link className="pageLink" to="/pageone">Page 1</Link>
-                    <Link className="pageLink" to="/pagetwo">Page 2</Link>
+                    <Link className="pageLink" to="/map">Map</Link>
+                    <Link className="pageLink" to="/pageone">Tickets & Special Offers</Link>
+                    <Link className="pageLink" to="/pagetwo">Fun Facts!</Link>
                 </nav>
                 <div className="hamburger-menu" onClick={toggleMenu}></div>
             </header>

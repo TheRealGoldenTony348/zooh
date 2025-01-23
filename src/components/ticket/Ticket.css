@@ -2,8 +2,18 @@
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    background-color: burlywood;
+    background-color: darkgray;
     padding: 0px 15px;
     width: 40vw;
     border-radius: 8px;
+    transition: 0.3s;
+    border: solid;
+    border-width: 4px;
+    border-color: darkgray;
+}
+
+.baseTicket:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    border-color: gray;
 }

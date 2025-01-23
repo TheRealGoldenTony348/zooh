@@ -1,27 +1,29 @@
 header {
     display: flex;
-
     align-items: center;
     flex-direction: row;
-    background-color: aliceblue;
+    background-color: lightgray;
 }
 
 .pageLink {
     color: black;
     font-weight: bold;
-    background-color: grey;
+    background-color: darkgray;
     padding: 5px 10px;
     text-decoration: none;
     margin-left: 10px;
     margin-right: 5px;
     transition: 0.7s;
     border-radius: 8px;
+    border: solid;
+    border-color: darkgray;
 }
 
 .pageLink:hover {
     cursor: pointer;
     transition: 0.3s;
-    background-color: lightgrey;
+    border: solid;
+    border-color: gray;
 }
 
 header {
@@ -30,19 +32,6 @@ header {
     justify-content: space-between;
 }
 
-.menuButton {
-    padding: 5px 9px;
-    border-radius: 8px;
-    border: none;
-    background-color: aqua;
-    transition: 0.3s;
-}
-
-.menuButton:hover {
-    background-color: cadetblue;
-    cursor: pointer;
-    transition: 0.7s;
-}
 
 .hamburger-menu {
     font-size: 1.5em;
@@ -59,6 +48,7 @@ header {
 
 .bm-burger-bars {
     background: #000000;
+    border-radius: 8px;
 }
 
 .bm-menu-wrap {
@@ -66,17 +56,17 @@ header {
 }
 
 .bm-menu {
-    background: #373a47;
+    background: darkgray;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
 }
 
 .bm-item-list {
-    color: #b8b7ad;
+    color: black;
 }
 
 .bm-item:hover {
-    color: white;
+    color: #222222;
 }
 
 .bm-cross-button {
@@ -85,13 +75,15 @@ header {
 }
 
 .bm-cross {
-    background: #bdc3c7;
+    background: #222222;
+    font-weight: bold;
 }
 
 .bm-item {
     display: inline-block;
     text-decoration: none;
     margin-bottom: 10px;
-    color: #d1d1d1;
+    color: #222222;
+    font-weight: bold;
     transition: color 0.2s;
 }

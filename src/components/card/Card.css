@@ -1,7 +1,7 @@
 .baseBox {
     width: 40%;
     height: 200px;
-    background-color: red;
+    background-color: lightgray;
     border-radius: 8px;
     margin: 10px;
     padding: 5px 10px;
@@ -16,5 +16,5 @@
 .baseBox:hover {
     transition: 0.7s;
     cursor: pointer;
-    background-color: brown;
+    background-color: darkgray;
 }
